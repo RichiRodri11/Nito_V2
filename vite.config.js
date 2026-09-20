@@ -35,6 +35,6 @@ export default defineConfig({
       },
     }),
   ],
-  server: {allowedHosts:[ "reliable-shipment-smtp-refugees.trycloudflare.com", "https://nito-v2.onrender.com/"],},
+  server: {allowedHosts:[ "reliable-shipment-smtp-refugees.trycloudflare.com", "nito-v2.onrender.com"],},
   test: { environment: "jsdom", include: ["tests/**/*.test.js"] },
 });
