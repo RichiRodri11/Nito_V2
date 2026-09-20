@@ -1,0 +1,24 @@
+{
+  "name": "nito",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Nito — acompañante de apoyo emocional con IA generativa local (funciona sin internet)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource-variable/figtree": "^5.2.0",
+    "@fontsource/caveat": "^5.2.0",
+    "@mlc-ai/web-llm": "^0.2.85"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "vite": "^7.0.0",
+    "vite-plugin-pwa": "^1.0.0",
+    "vitest": "^3.0.0"
+  }
+}
